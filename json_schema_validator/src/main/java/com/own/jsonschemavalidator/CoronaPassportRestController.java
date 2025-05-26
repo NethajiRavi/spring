@@ -29,6 +29,23 @@ public class CoronaPassportRestController {
         return request;
     }
 
+    // localhost:8080/api/corona/withvalidation
+
+//    {
+//        "person": {
+//        "name": 7,
+//                "age": 0,
+//                "social-security-number": "ABCDEFGHIJKLMNOPQR"
+//    },
+//        "passport": {
+//        "vaccination-process-begun": false,
+//                "vaccination-process-ended": true,
+//                "tested-negative": false,
+//                "has-been-sick-with-corona": false,
+//                "test-date": "ABCD"
+//    }
+//    }
+
     @PostMapping("/withvalidation")
     @JsonSchemaValidate("validate")
     public void createPassportValidation(@RequestBody String requestStr) throws JsonProcessingException {
