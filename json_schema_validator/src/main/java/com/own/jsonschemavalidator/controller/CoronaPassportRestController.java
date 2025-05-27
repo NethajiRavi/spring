@@ -1,7 +1,7 @@
 package com.own.jsonschemavalidator.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.own.jsonschemavalidator.Dto.CoronaPassportRequest;
+import com.own.jsonschemavalidator.dto.CoronaPassportRequest;
 import com.own.jsonschemavalidator.validateaop.JsonSchemaValidate;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
