@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jsonschema.iml" filepath="$PROJECT_DIR$/.idea/jsonschema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsonschemavalidator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jsonschemavalidator.main.iml" />
     </modules>
   </component>
 </project>

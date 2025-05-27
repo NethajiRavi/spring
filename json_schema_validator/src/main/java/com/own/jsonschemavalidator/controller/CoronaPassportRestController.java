@@ -1,22 +1,13 @@
-package com.own.jsonschemavalidator;
+package com.own.jsonschemavalidator.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
-import com.networknt.schema.JsonSchema;
-import com.networknt.schema.JsonSchemaFactory;
-import com.networknt.schema.SpecVersion;
-import com.networknt.schema.ValidationMessage;
+import com.own.jsonschemavalidator.Dto.CoronaPassportRequest;
 import com.own.jsonschemavalidator.validateaop.JsonSchemaValidate;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.io.InputStream;
-import java.util.Set;
 
 @RestController
 @RequestMapping("/api/corona")

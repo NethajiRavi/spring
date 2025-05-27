@@ -1,4 +1,4 @@
-package com.own.jsonschemavalidator;
+package com.own.jsonschemavalidator.Dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
